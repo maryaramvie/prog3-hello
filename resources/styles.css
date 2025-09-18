@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #e6e6e6;
+    text-align: left;
+    padding: 15px;
+}
+
+header a{
+    color: #303030;
+    margin: 0 15px; /** El primer valor aplica para top-bottom, y el segundo para left-right **/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
